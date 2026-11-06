@@ -131,7 +131,6 @@ body.lang-zh .eyebrow, body.lang-sc .eyebrow { letter-spacing: .12em; font-size:
 
 /* Hero */
 .hero { background: radial-gradient(1200px 500px at 85% -10%, #21405e 0%, transparent 60%), var(--night); color: var(--on-night); padding: clamp(56px, 8vw, 104px) 0 0; position: relative; overflow: hidden; }
-.hero::before { content: ""; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px); background-size: 100% 64px; pointer-events: none; }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 56px; align-items: end; position: relative; }
 .hero h1 { font-size: clamp(44px, 7.4vw, 96px); line-height: 1; color: #fff; margin-bottom: 28px; font-weight: 300; letter-spacing: -.03em; }
 body.lang-zh .hero h1, body.lang-sc .hero h1 { font-size: clamp(40px, 6.4vw, 80px); line-height: 1.2; letter-spacing: .04em; font-weight: 500; }
@@ -140,17 +139,17 @@ body.lang-zh .hero h1 em, body.lang-sc .hero h1 em { font-style: normal; }
 .hero-lede { font-size: clamp(18px, 1.7vw, 21px); color: #cfd6de; max-width: 600px; margin-bottom: 32px; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .clock-card { background: rgba(255, 255, 255, .04); border: 1px solid rgba(255, 255, 255, .12); border-radius: 6px; padding: 24px; }
-.clock-title { display: flex; align-items: center; gap: 8px; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--on-night-muted); margin-bottom: 14px; }
-.clock { display: grid; grid-template-columns: 1fr auto; align-items: baseline; padding: 14px 0; border-top: 1px solid rgba(255, 255, 255, .1); }
+.clock-title { display: flex; align-items: center; gap: 8px; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--on-night-muted); margin-bottom: 8px; }
+.clock { display: grid; grid-template-columns: 1fr auto; align-items: baseline; padding: 12px 0; }
 .clock-city { font-size: 15px; color: #dfe4ea; }
 .clock-time { font: 300 40px/1 var(--serif); color: #fff; font-variant-numeric: tabular-nums; grid-row: span 2; }
 .clock-day { font-size: 12px; color: var(--on-night-muted); }
-.clock-note { font-size: 14px; color: var(--on-night-muted); border-top: 1px solid rgba(255, 255, 255, .1); padding-top: 14px; margin-bottom: 14px; }
+.clock-note { font-size: 14px; color: var(--on-night-muted); border-top: 1px solid rgba(255, 255, 255, .1); padding-top: 18px; margin: 12px 0 14px; }
 .clock-links { display: flex; flex-direction: column; gap: 6px; font-size: 14px; }
 .clock-links a { display: inline-flex; gap: 8px; align-items: center; color: #fff; text-decoration: none; }
 .clock-links a:hover { text-decoration: underline; }
-.facts { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: clamp(48px, 7vw, 88px); border-top: 1px solid rgba(255, 255, 255, .14); position: relative; }
-.fact { padding: 26px 24px 30px 0; display: flex; flex-direction: column; gap: 6px; }
+.facts { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: clamp(48px, 7vw, 88px); position: relative; }
+.fact { border-top: 1px solid rgba(255, 255, 255, .14); padding: 26px 24px 30px 0; display: flex; flex-direction: column; gap: 6px; }
 .fact + .fact { padding-left: 24px; border-left: 1px solid rgba(255, 255, 255, .14); }
 .fact strong { font: 300 40px/1 var(--serif); color: #fff; }
 .fact span { font-size: 14px; color: var(--on-night-muted); max-width: 220px; }
@@ -158,7 +157,6 @@ body.lang-zh .hero h1 em, body.lang-sc .hero h1 em { font-style: normal; }
   .hero-grid { grid-template-columns: 1fr; gap: 40px; }
   .facts { grid-template-columns: 1fr 1fr; }
   .fact:nth-child(3) { padding-left: 0; border-left: 0; }
-  .fact:nth-child(n+3) { border-top: 1px solid rgba(255, 255, 255, .14); }
 }
 
 /* Intro */
