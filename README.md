@@ -2,7 +2,7 @@
 
 [Lu Oliphant Solicitors LLP](https://www.luoliphant.com/) 的網站改版：位於倫敦 Euston Road 的精品律師事務所（1999 年成立），客戶以海外投資者及來自中國內地、香港的高淨值客戶為主，業務涵蓋物業轉讓、移民、公司法、勞動法、訴訟、遺囑及遺產。純靜態 HTML / CSS / JS，任何靜態主機都能直接部署。
 
-> **概念設計展示**：這是由 [UX CIRCLES](https://ux-circles.com/web) 設計的改版提案，並非 Lu Oliphant 官方網站。
+> **概念設計展示**：這是由 [UX CIRCLES](https://ux-circles.com/professionals) 設計的改版提案，並非 Lu Oliphant 官方網站。
 > 每頁頂端有「Concept」標示列，所有頁面都設為 `noindex`，`robots.txt` 也禁止搜尋引擎收錄，避免和官方網站搶搜尋結果。
 > 如果律所正式採用：刪掉 `_build/layout.py` 裡的 `concept_bar()`、頁尾的 `concept-note` 和 `<meta name="robots" content="noindex, nofollow">`，重新建置，並把 `robots.txt` 改回 `Allow: /`。
 

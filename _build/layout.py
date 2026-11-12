@@ -113,7 +113,7 @@ def concept_bar():
     <p><span class="concept-tag">Concept</span><span class="concept-long">{L(
         f'Concept redesign. Not the <a href="{OFFICIAL}" target="_blank" rel="noopener">official Lu Oliphant website</a>.',
         f'改版概念設計，並非 <a href="{OFFICIAL}" target="_blank" rel="noopener">Lu Oliphant 官方網站</a>。')}</span></p>
-    <a href="https://ux-circles.com/web" target="_blank" rel="noopener"><span class="concept-by">{L("Designed by ", "設計：")}</span><strong>UX CIRCLES</strong> {icon("ext", "ic ic-sm")}</a>
+    <a href="https://ux-circles.com/professionals" target="_blank" rel="noopener"><span class="concept-by">{L("Designed by ", "設計：")}</span><strong>UX CIRCLES</strong> {icon("ext", "ic ic-sm")}</a>
   </div>
 </div>'''
 
@@ -172,7 +172,7 @@ def footer():
     </div>
     <div class="footer-base">
       <p>© {y} {FIRM}. {L("Authorised and regulated by the Solicitors Regulation Authority.", "受英國律師監管局（SRA）授權及監管。")}</p>
-      <p class="concept-note">{L("Unofficial redesign concept by", "非官方改版概念，設計：")} <a href="https://ux-circles.com/web" target="_blank" rel="noopener">UX CIRCLES</a></p>
+      <p class="concept-note">{L("Unofficial redesign concept by", "非官方改版概念，設計：")} <a href="https://ux-circles.com/professionals" target="_blank" rel="noopener">UX CIRCLES</a></p>
     </div>
   </div>
 </footer>
